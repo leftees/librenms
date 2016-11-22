@@ -6,7 +6,6 @@ engines:
     enabled: true
     config:
       file_extensions: "php"
-engines:
   phpcodesniffer:
     enabled: true
     config:
@@ -40,8 +39,8 @@ ratings:
   - "**.py"
   - "**.rb"
 exclude_paths:
-- "tests/"
-- "lib/"
-- "html/js/"
+- "tests/**"
+- "lib/**"
+- "html/js/**"
 - "html/css/"
 - "html/lib/"
